@@ -90,8 +90,15 @@ def two(input):
 
 	# No Hints for this question
 
-def three(arg1):
-	return "null"
+def three(number):
+    if number % 5 == 0 and number % 3 == 0:
+        return "fizzbuzz"
+    elif number % 5 == 0:
+        return "buzz"
+    elif number % 3 == 0:
+        return "fizz"
+    else:
+        return "null"
 
 
 	# <QUESTION 4>
