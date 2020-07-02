@@ -175,6 +175,9 @@ def five(input):
 def six(input):
     return False
 
+
+
+
 	# <QUESTION 7>
 
     # Write a function which returns the integer number of vowels in a given string. 
@@ -190,7 +193,13 @@ def six(input):
 	# How do we ignore case in a String? help(str) may offer some insight.
 
 def seven(input):
-    return 0
+	count = 0
+	for letter in input.lower():
+		if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+			count += 1
+	return count
+
+
 
 	# <QUESTION 8>
 

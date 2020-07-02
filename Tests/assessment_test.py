@@ -15,12 +15,12 @@ from Code import python1
 #    assert python1.two("xxbertyy") == ""
 #    assert python1.two("xxbeRTyy") == ""
 
-def test_three():
-    assert python1.three(3) == "fizz"
-    assert python1.three(10) == "buzz"
-    assert python1.three(15) == "fizzbuzz"
-    assert python1.three(8) == "null"
-    assert python1.three(75) == "fizzbuzz"
+#def test_three():
+#    assert python1.three(3) == "fizz"
+#    assert python1.three(10) == "buzz"
+#    assert python1.three(15) == "fizzbuzz"
+#    assert python1.three(8) == "null"
+#    assert python1.three(75) == "fizzbuzz"
 
 #def test_four():
 #    assert python1.four("55 72 86") == 14
@@ -43,12 +43,12 @@ def test_three():
 #    assert python1.six("height") == False
 #    assert python1.six("receive") == True
 
-#def test_seven():
-#    assert python1.seven("Hello") == 2
-#    assert python1.seven("hEelLoooO") == 6
-#    assert python1.seven("WhitEboarD") == 4
-#    assert python1.seven("as") == 1
-#    assert python1.seven("pass") == 1
+def test_seven():
+    assert python1.seven("Hello") == 2
+    assert python1.seven("hEelLoooO") == 6
+    assert python1.seven("WhitEboarD") == 4
+    assert python1.seven("as") == 1
+    assert python1.seven("pass") == 1
 
 #def test_eight():
 #    assert python1.eight(1) == 1
