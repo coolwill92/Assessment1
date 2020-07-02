@@ -8,12 +8,12 @@ from Code import python1
 #    assert python1.one("echo", "print") == "print"
 #    assert python1.one("fire","rib") == "fire"
 
-#def test_two():
-#    assert python1.two("bertclivebert") == "clive"
-#    assert python1.two("xxbertfridgebertyy") == "fridge"
-#    assert python1.two("xxBertfridgebERtyy") == "fridge"
-#    assert python1.two("xxbertyy") == ""
-#    assert python1.two("xxbeRTyy") == ""
+def test_two():
+    assert python1.two("bertclivebert") == "clive"
+    assert python1.two("xxbertfridgebertyy") == "fridge"
+    assert python1.two("xxBertfridgebERtyy") == "fridge"
+    assert python1.two("xxbertyy") == ""
+    assert python1.two("xxbeRTyy") == ""
 
 #def test_three():
 #    assert python1.three(3) == "fizz"
@@ -43,12 +43,12 @@ from Code import python1
 #    assert python1.six("height") == False
 #    assert python1.six("receive") == True
 
-def test_seven():
-    assert python1.seven("Hello") == 2
-    assert python1.seven("hEelLoooO") == 6
-    assert python1.seven("WhitEboarD") == 4
-    assert python1.seven("as") == 1
-    assert python1.seven("pass") == 1
+#def test_seven():
+#    assert python1.seven("Hello") == 2
+#    assert python1.seven("hEelLoooO") == 6
+#    assert python1.seven("WhitEboarD") == 4
+#    assert python1.seven("as") == 1
+#    assert python1.seven("pass") == 1
 
 #def test_eight():
 #    assert python1.eight(1) == 1

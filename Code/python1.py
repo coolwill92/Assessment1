@@ -66,7 +66,12 @@ def one(input1, input2):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def two(input):
-	return ""
+    lower = input.lower()
+    split = lower.split("bert")
+    if len(split) > 2:
+        return split[int(len(split) / 2)]
+    else:
+        return ""
 
 
 
@@ -124,7 +129,8 @@ def three(number):
 	# help(int) for working with numbers and help(str) for working with Strings.
 
 def four(arg1):
-	return 0
+
+    return 0
 
 	# <QUESTION 5>
 
@@ -151,8 +157,7 @@ def four(arg1):
 
 	# help(str) and help(list), you might also need to use a function that can create a list of numbers for you, try help(range).
 
-def five(input):
-	return []
+
 
 	# <QUESTION 6>
 
@@ -170,10 +175,6 @@ def five(input):
 	# <HINT>
 
 	# Step through the logic here in order to solve the problem, you may find help(range) helpful.
-
-
-def six(input):
-    return False
 
 
 
@@ -216,8 +217,6 @@ def seven(input):
 
 	# You may need to create a list of numbers from 0 to i, take a look at help(range).
 
-def eight(input):
-	return 1
 
 	# <QUESTION 9>
 
@@ -226,6 +225,8 @@ def eight(input):
     # DO NOT ignore case
     # IGNORE whitespace
     # If the char does not occur, return the number -1.
+
+
     
     # <EXAMPLES>
 
@@ -237,8 +238,6 @@ def eight(input):
 
 	# Take a look at the documentation for Strings, List and range.
 
-def nine(inputString, char):
-	return -1
 
 	# <QUESTION 10>
 
@@ -258,4 +257,5 @@ def nine(inputString, char):
 	# How do we find the length of a container, take a look at help(len), you will also need to look at help(str) for String manipulation.
  
 def ten(string, int, char):
-	return False
+    return False
+
