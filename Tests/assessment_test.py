@@ -8,8 +8,14 @@ from Code import python1
 #def test_two():
 #    assert python1.helloworld2() == "Hello World"
 
-def test_three():
-    assert python1.helloworld3() == "HelloWorld"
-    assert python1.helloworld3() == "Williamiscool"
-    assert python1.helloworld3() == " "
+#def test_three():
+#    assert python1.helloworld3() == "HelloWorld"
+#    assert python1.helloworld3() == "Williamiscool"
+#    assert python1.helloworld3() == " "
+
+def test_four():
+    assert python1.helloworld4() == 4
+    assert python1.helloworld4() == 8
+
+
 
